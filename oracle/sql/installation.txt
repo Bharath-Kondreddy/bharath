@@ -1,0 +1,41 @@
+What is the difference between Oracle Home and Oracle Base?
+oracle base = E:\oracle\db
+oracle home = E:\oracle\db\app\oracle\product\11.2.0\server
+port for oracle database listener  = 1521
+port for oracle services for microsoft transaction server = 2030
+port for 'Oracle HTTP listener' = 8080
+
+How to open SQL command line interface from Command prompt?
+>Press Windows key + S
+>Search for SQL
+>Open Run SQL command prompt.
+
+How to connect oracle database from CLI?
+>connect sys as sysdba;
+
+What is 'sys' and 'sysdba'?
+>sys is a default user 
+>sysdba is a default role
+
+How to check all the tables?
+>select * from tab;
+
+What is 'tab'?
+>'tab' is a table where all tables are registered into 'tab' table
+
+What is 'schema'?
+>schema is a collection of tables, views and etc.,
+
+What is 'user' ?
+>We'll create user in schema and we'll give some permissions to that particular user on that schema.
+
+How to unlock hr schema?
+ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
+
+What is the difference between table & view ?
+>Table is a physical entity and view is a logical entity.
+>Table consists of data whereas view don't consist data
+>We'll create view on top of table.
+
+How to read data from table?
+>By using 'select' query

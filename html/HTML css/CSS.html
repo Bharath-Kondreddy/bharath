@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Here the internal CSS is applied-->
+		<style>
+			*{text-align:left;
+				color:blue;}
+			/*This is Universal Selector in CSS*/
+			body{background-color:black;
+				background-image:url("7.jpg");
+				background-repeat:repeat-x;
+				background-position:none;
+				background-attachment:fixed;}
+			h1 {color: red;
+				text-align: center;
+				border:3px solid lime;
+				background-color:silver;
+				}
+			h2 {color: gold;
+				background-color: darkslategrey;}
+			h3 {color: lime;}
+			p {color: cyan;}
+			/*Here ID selector is used*/
+			#p1{color:gold;
+				text-align:right;}
+			/*Here class selector is used by inserting a period (.) and a class name*/
+			.adjust{font-family:times;
+					color:blue;
+					font-size:20px;
+					text-align:center;}
+			#h99 {text-align:right;}
+			#p99 {color:orangered;}
+			.right {text-align:right;}
+			.center {text-align:center;}
+			.large {font-size:63px;
+					color:chartreuse;}
+			
+		</style>
+		<!--We cannot use the HTML comments tag in CSS-->
+		<!--To insert CSS comments this (/**/) tags are to be used-->
+	</head>
+	<body>
+		<h1>TRADING LISTS</h1>
+		<div style="background-color:darkblue;opacity:0.9;">
+		<h2>Banking & Finance stocks</h2>
+		<p>HDFC<br>ICICI<br>SBIN<br>Kotak<br>Axis<br>IndusInd</p>
+		</div>
+		<h2 class="right">FMCG stocks</h2>
+		<p class="right">HindUnilvr<br>ITC<br>NestleInd<br>Britannia<br>TATAconsum<br>Dabur<br>GodrejCP<br>ColPal<br>Marico</p>
+		<div style="background-color:darkblue;opacity:0.8;">
+		<h2>Pharma stocks</h2>
+		<p>DRreddy<br>Cipla<br>SunPharma<br>GlenMark<br>DivisLab<br>Gland<br>BIBCL<br>Supriya<br>AuroPharma<br>BioCon</p>
+		</div>
+		<h2 class="right">Infra stocks</h2>
+		<p class="right">L& T<br>LancoInfra<br>PunjLloyd<br>JPassoc<br>NargarjunaCC<br>SimplexInfra</p>
+		<div style="background-color:darkblue;opacity:0.7;">
+		<h2>Oil, Gas& Fuel stocks</h2>
+		<p>IOCL<br>ONGC<br>BPCL<br>GAIL<br>Reliance<br>HPCL<br>OIL<br>Cairn India<br>TATA petro Ltd<br>EGFL</p>
+		</div>
+		
+		<!--Let us use the inline editing-->
+		<h1 style="color:red;text-align:center;border:2px solid dodgerblue;">FOREX Lists</h1>
+		<h3 id="h99">Currencies</h3>
+		<p id="p1">USDINR<br>GBPUSD<br>EURUSD<br>USDJPY<br>INRJPY<br>USDAUD</p>
+		<h3 style="text-align:center;">CRYPTO Currencies</h3>
+		<p class="adjust">Bitcoin<br>Ethereum<br>Litecoin<br>Ripple<br>Polygon<br>Cardano<br>Cartesi<br>Tether</p>
+		<h3>Global Indices</h3>
+		<p id="p99">Dow Jones<br>NASDAQ<br>S& P 500<br>Canada TSX<br>UKX<br>EUROnext<br>Japan Nikkei<br>HongKong HSI<br>China SZSE</p>
+		<h2 class="center large">Bharath's Tracking List</h2>
+		<p style="text-align:center;color:blue;">Nykaa<br>Zomato<br>Adani Wilmar Ltd<br>Cartrade tech<br>ZEE Ltd<br>Mindtree<br>Paytm<br>SW Solar<br>Policy bzr<br>Trent<br>Jubl Food<br>Happiest Minds<br>Aditya Birla Fashion<br>Indian Energy Exch<br>Hindpetro<br>Supriya LifeSciences<br>Deepak Nitrate<br>IRCTC<br>Polycab<br>Divislab<br>IFCI<br>BHEL</p>
+		
+	</body>
+	<footer></footer>
+</html>

@@ -1,0 +1,69 @@
+
+JAVA SCRIPT OPERATORS
+JavaScript uses arithmetic operators ( + - * / ) to compute values 
+JavaScript uses an assignment operator ( = ) to assign values to variables.
+--------------------
+JAVASCRIPT EXPRESSIONS
+An expression is a combination of values, variables, and operators, which computes to a value.
+
+The computation is called an evaluation.
+
+For example, 5 * 10 evaluates to 50
+
+The values can be of various types, such as numbers and strings.
+
+For example, "John" + " " + "Doe", evaluates to "John Doe"
+
+JavaScript keywords are used to identify actions to be performed.
+
+The let keyword tells the browser to create variables
+The var keyword also tells the browser to create variables
+NOTE:	1)Using var or let will produce the same result.
+	2)Not all JavaScript statements are "executed".
+	Code after double slashes // or between /* and */ is treated as 	a comment
+____________________________________________
+JAVA SCRIPT IDENTIFIERS/NAMES
+
+>Identifiers are used to name variables and keywords, and functions.
+
+>A JavaScript name must begin with:
+
+	-A letter (A-Z or a-z)
+	-A dollar sign ($)
+	-Or an underscore (_)
+(Subsequent characters may be letters, digits, underscores, or dollar signs)
+
+NOTE:
+	-}Numbers are not allowed as the first character in names.
+
+	-}This way JavaScript can easily distinguish identifiers from 	numbers.
+	-}All JavaScript identifiers are case sensitive. 
+	_Ex:The variables lastName and lastname, are two different 	variables_
+	-}JavaScript does not interpret LET or Let as the keyword let.
+	-}Hyphens are not allowed in JavaScript. They are reserved for 	subtractions.
+-------------------------
+JavaScript and Camel Case
+_________________________
+>>Underscore:
+
+	Ex:first_name, last_name, master_card, inter_city.
+
+>>Upper Camel Case (Pascal Case):
+
+	Ex:FirstName, LastName, MasterCard, InterCity.
+
+>>Lower Camel Case:
+
+	JavaScript programmers tend to use camel case that starts with 		a lowercase letter:
+
+	Ex:firstName, lastName, masterCard, interCity.
+----------
+NOTES ON JS COMMENTS:	
+	1)Single line comments start with "//"
+	2)Multi-line comments start with /* and end with */
+	3)It is most common to use single line comments.
+	Block comments are often used for formal documentation.
+	4)Using comments to prevent execution of code is suitable for 		code testing.
+
+	Adding // in front of a code line changes the code lines from 		an executable line to a comment
+

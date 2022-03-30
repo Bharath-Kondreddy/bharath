@@ -1,0 +1,25 @@
+1)If the border-style property has four values:
+
+>border-style: dotted solid double dashed;
+	top border is dotted
+	right border is solid
+	bottom border is double
+	left border is dashed
+
+2)If the border-style property has three values:
+
+>border-style: dotted solid double;
+	top border is dotted
+	right and left borders are solid
+	bottom border is double
+
+3)If the border-style property has two values:
+
+>border-style: dotted solid;
+	top and bottom borders are dotted
+	right and left borders are solid
+
+4)If the border-style property has one value:
+
+>border-style: dotted;
+	all four borders are dotted

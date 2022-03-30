@@ -1,0 +1,32 @@
+What is shorthand property?
+
+When using the shorthand property the order of the property values is:
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+
+NOTE:It does not matter if one of the property values is missing, as long as the other ones are in this order.
+
+TABLE SHOWING DIFF. PROPERTIES
+PROPERTY		DESCRIPTION
+background		Sets all the background properties in one 				declaration
+background-attachment	Sets whether a background image is fixed or 				scrolls with the rest of the page
+background-clip		Specifies the painting area of the background
+background-color	Sets the background color of an element
+background-image	Sets the background image for an element
+background-origin	Specifies where the background image(s) is/are 				positioned
+background-position	Sets the starting position of a background 				image
+background-repeat	Sets how a background image will be repeated
+background-size		Specifies the size of the background image(s)
+
+
+All CSS Simple Selectors
+SELECTOR	EXAMPLE		EXAMPLE DESCRIPTION
+#id		#firstname	Selects the element with id="firstname"
+.class		.intro		Selects all elements with class="intro"
+element.class	p.intro		Selects only <p> elements 						with class="intro"
+*		*		Selects all elements
+element		p		Selects all <p> elements
+elmnt,elmnt,..	div, p		Selects all <div> elements and all <p> 					elements

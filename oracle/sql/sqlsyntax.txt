@@ -1,0 +1,52 @@
+SQL SYNTAX:
+
+Database Tables
+---------------
+A database most often contains one or more tables. Each table is identified by a name (e.g. "Customers" or "Orders"). 
+Tables contain records (rows) with data.
+
+SQL Statements
+--------------
+Most of the actions you need to perform on a database are done with SQL statements.
+
+The following SQL statement selects all the records in the "Customers" table.
+
+Ex:
+SELECT * FROM Customers;
+
+NOTE:Semicolon after SQL Statements?
+Some database systems require a semicolon at the end of each SQL statement.
+
+Some of The Most Important SQL Commands
+
+SELECT - extracts data from a database
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database
+ALTER DATABASE - modifies a database
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
+CREATE INDEX - creates an index (search key)
+DROP INDEX - deletes an index
+
+SQL 'SELECT' statement
+----------------------
+The SELECT statement is used to select data from a database.
+
+The data returned is stored in a result table, called the result-set.
+
+Syntax: SELECT column1,  column2, ... FROM table_name;
+Ex:     SELECT employee_id, salary FROM employees;
+		SELECT * FROM employees; will select all the fields from the table.
+		
+SQL 'SELECT DISTINCT' statement
+-------------------------------
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+In a table column there can be many duplicate values and if we want only 
+list of  distint values we use above SQL statement.
+
+Syntax: SELECT DISTINCT column1, column2, ... FROM table_name;
+Ex: Try these,
+	

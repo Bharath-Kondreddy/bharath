@@ -1,0 +1,75 @@
+What is "Unique constraint"?
+--------------------------
+>The UNIQUE constraint ensures that all values in a column are different.
+>Both the UNIQUE and PRIMARY KEY constraints provide a guarantee for uniqueness for a column or set of columns.
+>However, you can have many UNIQUE constraints per table, but only one PRIMARY KEY constraint per table.
+
+What is "Primary key"?
+--------------------
+		>The PRIMARY KEY constraint uniquely defines each record in a table.
+		>Primary keys must contain UNIQUE values, and cannot contain NULL values.
+		>A table can have only ONE primary key.
+		>Primary key can consist of single or multiple columns (fields).
+		>A PRIMARY KEY constraint automatically has a UNIQUE constraint.
+		>The table with the primary key is called the "referenced or parent table".
+
+What is "Foreign key"?
+--------------------
+	>The FOREIGN KEY constraint is used to prevent actions that would destroy links between tables.
+	>A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
+	>The table with the foreign key is called the "child table".
+
+What is the difference between Unique key, Primary key & Foreign key?
+------------------------------------------------------------------
+	>A primary key is used to ensure data in the specific column is unique. 
+	>A foreign key is a column or group of columns in a relational database table that provides a link between data in two tables.
+	>Unique key uniquely identifies a record in the relational database table.
+What is schema?
+--------------
+>In a SQL database, a schema is a list of logical structures of data. 
+>A database user owns the schema, which has the same name as the database manager.
+>A schema is an individual entity (container of objects) distinct from the user who constructs the object.
+
+What is user? 
+-------------
+	A User allows you to log into a SQL Server database and is mapped to a Login.
+	So you will need to first create a Login, before you can create a User in SQL Server.
+	
+What is difference between schema and user?
+	A schema is collection of database objects, including logical structures such as tables, views, sequences, stored procedures, synonyms,  indexes, clusters, and database links. A user owns a schema. 
+	A user and a schema have the same name. The CREATE USER command creates a user.
+	
+What is sequence?
+	A sequence is a user defined schema bound object that generates a sequence of numeric values. Sequences are frequently used in many databases because many applications require each row in a table to contain a unique value and sequences provides an easy way to generate them.
+	
+What is trigger?
+	A trigger is a special type of stored procedure that automatically runs when an event occurs in the database server. DML triggers run when a user tries to modify data through a data manipulation language (DML) event. DML events are INSERT, UPDATE, or DELETE statements on a table or view
+
+How  to create a Table?
+Syntax: CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....);
+Example: CREATE TABLE employees(
+			employee_id integer,
+			first_name varstring,
+			last_name varstring);
+How to alter a Table?
+
+----------------------
+WHAT IS THE DIFFERENCE BETWEEN DROP AND TRUNCATE?
+
+>In SQL, the DROP command is used to remove the whole database or table indexes, data, and more. 
+>Whereas the TRUNCATE command is used to remove all the rows from the table
+--------------------------
+WHAT IS THE DIFFERENCE BETWEEN COMMIT AND ROLE BACK?
+
+>The COMMIT statement lets a user save any changes or alterations on the current transaction. These changes then remain permanent. 
+>The ROLLBACK statement lets a user undo all the alterations and changes that occurred on the current transaction after the last COMMIT.
+--------------------------
+How to alter Sequence?
+
+HOW  TO CREATE SEQUENCE?
+
+WHAT IS THE DIFFERENCE BETWEEN TRIGGER AND SEQUENCE?

@@ -1,0 +1,85 @@
+*{
+	margin:0px;
+	box-sizing:border-box;
+}
+h1{
+	background-color:blue;
+	color:magenta;
+	font-size:30px;
+	font-family:times;
+	text-align:center;
+	}
+body{
+	background-color:lightblue;
+	font-family:verdana;
+	color:black;
+	font-size:big;
+	}
+.empform {
+	margin:2px;
+}
+.row{
+	display:table;
+}
+.column{
+	border:1px solid lime;
+	text-align:center;
+}
+.btn{
+	text-align:center;
+	margin-top:280px;
+}
+#sbt{
+	background-color:lime;
+	border:2px solid crimson;
+	text-align:center;
+	padding:15px 30px;
+	font-size:16px;
+	font-family:courier;
+	margin:4px 2px;
+	border-radius:10px;
+	cursor:pointer;
+	}
+#job{
+	background-color:cornsilk;
+	border:3px groove blue;
+	border-radius:15px;
+	border-collapse:collapse;
+	padding:2px;
+	width:200px;
+	height:30px;
+	margin:10px;
+	}
+input{
+	background-color:cornsilk;
+	border:3px groove blue;
+	border-radius:15px;
+	padding:5px;
+	width:200px;
+	height:20px;
+	margin:10px;
+	}
+@media screen and (max-width: 767px) and (min-width: 320px){
+	.column{
+		float:left;
+		width:99%;
+		border:1px dotted red;
+		text-align:center;
+	} 
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+	.column{
+		float:left;
+		width:49%;
+		border:1px dotted yellow;
+		text-align:center;
+	}
+}
+@media screen and (min-width: 1023px){
+	.column{
+		float:left;
+		width:33%;
+		border:1px solid lime;
+		text-align:left;
+	}
+}

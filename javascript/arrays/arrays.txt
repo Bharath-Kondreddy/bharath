@@ -1,0 +1,164 @@
+JAVASCRIPT ARRAYS
+-----------------
+>>An array is a special variable, which can hold more than one value:
+
+	Ex:const cars = ["Saab", "Volvo", "BMW"];
+	
+Why Use Arrays?
+
+>>If you have a list of items (a list of car names, for example), storing 	the cars in single variables is difficult.Then array is handy. 
+>>An array can hold many values under a single name, and you can access the values by referring to an index number.
+------------------
+Creating an Array
+
+>>Using an "array" literal is the easiest way to create a JavaScript Array.
+
+Syntax:
+
+const array_name = [item1, item2, ...]; 
+----
+You can also create an array, and then provide the elements:
+
+Example
+const cars = [];
+cars[0]= "Saab";
+cars[1]= "Volvo";
+cars[2]= "BMW";
+
+Using the JavaScript Keyword "new"
+The following example also creates an Array, and assigns values to it:
+
+Example
+const cars = new Array("Saab", "Volvo", "BMW");
+--------------------
+
+Accessing Array Elements
+You access an array element by referring to the index number.
+Ex: const cars = [audi, bmw, volvo, rr]
+	cars[0] = audi;
+	cars[2] = volvo;
+Note: Array indexes start with 0.
+[0] is the first element. [1] is the second element.
+------------------------
+
+Changing an Array Element
+Example
+const cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "audi";
+Output cars = ["audi","Volvo","BMW"];
+-----------------------------------
+
+Access the Full Array
+
+With JavaScript, the full array can be accessed by referring to the array name:
+
+Example
+const cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+
+Arrays are Objects
+Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.
+
+Objects use names to access its "members". 
+
+In this example:
+Object:
+const person = {firstName:"John", lastName:"Doe", age:46};
+person.firstName returns John
+-----------------------------
+
+Array Elements Can Be Objects
+>>JavaScript variables can be objects.
+>>Arrays are special kinds of objects.
+Because of this, you can have variables of different types in the same Array.
+>>You can have objects in an Array.
+>>You can have functions in an Array.
+>>You can have arrays in an Array.
+
+Ex:
+cars =["audi","rr","bmw"];
+function Addition();
+myArray = [];
+Now,
+myArray[0] = Date.now;
+myArray[1] = myFunction;
+myArray[2] = cars;
+--------------------
+
+Array Properties and Methods
+
+The real strength of JavaScript arrays are the built-in 
+'array properties' and 'methods'.
+
+cars.length   // Returns the number of elements
+cars.sort()   // Sorts the array
+
+The length Property
+___________________
+The length property of an array returns the length of an array (the number of array elements).
+---------------------
+
+Accessing the First Array Element
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let firstFruit = fruits[0];
+
+Accessing the Last Array Element
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let lastFruit = fruits[fruits.length - 1];
+-----------------------------------------
+
+Looping Array Elements
+One way to loop through an array, is using a "for" loop
+
+Adding Array Elements
+The easiest way to add a new element to an array is using the push() method:
+
+Example
+const fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Lemon");  // Adds a new element (Lemon) to fruits
+
+New element can also be added to an array using the "length" property.
+
+Example
+const fruits = ["Banana", "Orange", "Apple"];
+fruits[fruits.length] = "Lemon";  // Adds "Lemon" to fruits
+
+WARNING !
+Adding elements with high indexes can create undefined "holes" in an array.
+---------------
+
+Associative Arrays
+Many programming languages support arrays with named indexes.
+
+Arrays with named indexes are called associative arrays (or hashes).
+
+JavaScript does not support arrays with named indexes.
+
+In JavaScript, arrays always use numbered indexes.  
+WARNING !!
+If you use named indexes, JavaScript will redefine the array to an object.
+
+After that, some array methods and properties will produce incorrect results.
+-------------------------
+
+The Difference Between Arrays and Objects
+In JavaScript, arrays use numbered indexes.  
+
+In JavaScript, objects use named indexes.
+
+Arrays are a special kind of objects, with numbered indexes.
+------------------------------------
+When to Use Arrays. When to use Objects.
+JavaScript does not support associative arrays.
+You should use objects when you want the element names to be strings (text).
+You should use arrays when you want the element names to be numbers.
+-----------------------------------------
+
+A Common Error
+const points = [40];
+is not the same as:
+
+const points = new Array(40);
+

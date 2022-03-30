@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+		<link rel="stylesheet" href="../css/createemployee.css">
+		<script src="../js/createemployee.js"></script>
+	</head>
+	<body>
+		<h1>Employee Data Collection Form</h1>
+		<form>
+		<div  class="empform">
+			<div class="row">
+				<div class="column">
+					<label for="empid">Employee ID:</label><br>
+					<input  type="text" id="empid" placeholder="Enter you Employee ID">
+				</div>
+				<div class="column">
+					<label for="fstnm">First Name:</label><br>
+					<input type="text" id="fstnm" placeholder="Enter your first name">
+				</div>
+				<div class="column">
+					<label for="lstnm">Last Name:</label><br>
+					<input type="text" id="lstnm" placeholder="Enter your last name">
+				</div>
+				<div class="column">
+					<label for="eml">e-Mail ID:</label><br>
+					<input type="email" id="eml" placeholder="Enter your e-mail">
+				</div>
+				<div class="column">
+					<label for="pno">Phone Number:</label><br>
+					<input type="text" id="pno" placeholder="Enter Phone No.">
+				</div>
+				<div class="column">
+					<label for="hrdt">Hire Date:</label><br>
+					<input type="date" id="hrdt" placeholder="Enter Hire Date">
+				</div>
+				<div class="column">
+					<label for="sal">Salary:</label><br>
+					<input type="text" id="sal" placeholder="Enter Salary">
+				</div>
+				<div class="column">
+					<label for="job">Job:</label><br>
+					<select id="job" placeholder="Enter Job">
+						<option>-SELECT-</option>
+						<option value="Full-stack Developer">Full-stack Developer</option>
+						<option value="Specialist Programmer">Specialist Programmer</option>
+						<option value="Digital Specialist Engineer">Digital Specialist Engineer</option>
+						<option value="Software Engineer">Software Engineer</option>
+						<option value="Tester">Tester</option>
+						<option value="Back-end Developer">Back-end Developer</option>
+						<option value="Front-end Developer">Front-end Developer</option>
+					</select>
+				</div>
+				<div class="column">
+					<label for="cmsn">Commision Pct:</label><br>
+					<input type="text" id="cmsn" placeholder="Enter Comm. Amt.">
+				</div>
+				<div class="column">
+					<label for="mngr">Manager Name:</label><br>
+					<input type="text" id="mngr" placeholder="Enter Manager Name">
+				</div>
+				<div class="column">
+					<label for="dptn">Department Name:</label><br>
+					<input type="text" id="dptn" placeholder="Enter Dpt. Name">
+				</div>
+				<br ><br>
+				<div class="btn"><br>
+					<button type="submit" id="sbt">SUBMIT</button>
+				</div>
+			</div>
+		</div>
+		</form>
+	</body>
+</html>

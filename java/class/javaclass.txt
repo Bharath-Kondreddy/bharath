@@ -1,0 +1,32 @@
+Create a Class in Java:
+-----------------------
+To create a class, use the keyword "class"
+________________________________________________________________________________
+NOTE:Remember from the 'Java Syntax chapter' that a class should always start with an uppercase first letter, and that the name of the java file should match the class name.
+________________________________________________________________________________
+Create a class named "Colors" with a variable x:
+
+public class Colors {
+  String x = "Red";
+}
+NOTE: Here the file name should be "Main.java"
+________________________________________________________________________________
+Create an Object
+----------------
+In Java, an "object" is created from a "class". 
+We have already created the class named 'Colors', so now we can use this to create objects.
+
+To create an object of 'Colors', specify the class name, followed by the object name, and use the keyword "new"
+
+Ex: public class Colors {
+  String x = "Red";
+  int y = 9;
+  
+  public static void main(String[] args){
+	Colors object1 = new Colors(); //Object 1
+	Colors object2 = new Colors(); //Object 2
+	System.out.println(object1.x);
+	System.out.println(object2.y);
+	
+  }
+}

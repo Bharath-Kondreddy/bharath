@@ -1,0 +1,21 @@
+JAVASCRIPT DISPLAY POSSIBILITIES
+--------------------------------
+JavaScript can "display" data in different ways:
+
+>Writing into an HTML element, using "innerHTML".
+>Writing into the HTML output using "document.write()".
+>Writing into an alert box, using "window.alert()".
+>Writing into the browser console, using "console.log()".
+-----
+USING "innerHTML"
+-}To access an HTML element, JavaScript can use the 	"document.getElementById(id name)" method.
+
+-}The "id" attribute defines the HTML element. The "innerHTML" property defines the HTML content
+
+NOTE:Changing the innerHTML property of an HTML element is a common way 	to display data in HTML.
+-----
+USING "document.write()"
+For testing purposes, it is convenient to use "document.write()"
+
+NOTE:	1)Using "document.write()" after an HTML document is loaded, 		will delete all existing HTML
+	2)The "document.write()" method should only be used for 	testing.

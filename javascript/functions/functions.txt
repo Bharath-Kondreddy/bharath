@@ -1,0 +1,75 @@
+JAVASCRIPT FUNCTIONS
+--------------------
+>>A JS function is a block of code designed to perform a particular task.
+
+>>A JS function is executed when "something" invokes it (calls it).
+----------------------
+JS FUNCTION SYNTAX
+
+A JS function is defined with the "function" keyword, followed by a name, followed by parentheses ().
+
+Ex: function editEmployee(pm1, pm2, pm3 ){ // block of code to be executed}
+
+>Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+
+>The parentheses may include parameter names separated by commas:
+(parameter1, parameter2, ...)
+
+>The code to be executed, by the function, is placed inside
+ curly brackets: {}
+
+FUNCTION INVOCATION
+-------------------
+The code inside the function will execute when "something" invokes (calls) the function:
+
+>>When an event occurs (when a user clicks a button)
+>>When it is invoked (called) from JavaScript code
+>>Automatically (self invoked)
+
+FUNCTION "Return"
+-----------------
+When JavaScript reaches a "return" statement, the function will stop executing.
+
+>>If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+
+>>Functions often compute a "return value". The return value is "returned" back to the "caller".
+------------------
+
+Why Functions?
+>You can reuse code: Define the code once, and use it many times.
+
+>You can use the same code many times with different arguments, to produce different results.
+------------------
+
+The () Operator Invokes the Function
+
+>Accessing a function without () will return the function object instead of the function result.
+----------------------
+
+Functions Used as Variable Values
+
+>Functions can be used the same way as you use variables, in all types of formulas, assignments, and calculations.
+-------------------
+
+Local Variables
+
+>>Variables declared within a JavaScript function, become LOCAL to the function.
+
+>>Local variables can only be accessed from within the function.
+
+Example:
+// code here can NOT use carName
+
+function myFunction() {
+  let carName = "Volvo";
+  
+ // code here CAN use carName
+}
+
+// code here can NOT use carName
+--------------------------------
+Since local variables are only recognized inside their functions,
+ variables with the same name can be used in different functions.
+
+Local variables are created when a function starts, 
+and deleted when the function is completed.

@@ -1,0 +1,14 @@
+h1{background-color:pink;
+	color:magenta;
+	text-align:center;
+	font-size:60px;
+	width:90%;}
+
+div{background-color:springgreen;
+	width:500px;
+	margin:auto;
+	border:20px inset blue;
+	border-style:double ridge;
+	padding:25px 90px;
+	color:balck;
+	font-size:30px;}

@@ -1,0 +1,81 @@
+*{font-size:25px;
+	font-family:courier;
+	padding:6px;}
+p.dotted {border-width: 8px;
+			border-style: dotted;
+			border-color: red;}
+p.dashed {border-width: medium;
+			border-style: dashed;
+			border-color: blue;}
+p.solid {border-width: 5px;
+			border-style: solid;
+			border-color: lawngreen;}
+p.double {border-width: thick;
+			border-style: double;
+			border-color: gold;}
+p.groove {border-width: 6px;
+			border-style: groove;
+			border-color:orange ;}
+p.ridge {border-width:7px ;
+			border-style: ridge;
+			border-color: cyan;}
+p.inset {border-width: 9px ;
+			border-style: inset;
+			border-color: yellow;}
+p.outset {border-width: 7px;
+			border-style: outset;
+			border-color:crimson ;}
+p.none {border-width:5px ;
+			border-style: none;
+			border-color: black;}
+p.hidden {border-width:6px ;
+			border-style: hidden;
+			border-color: blue;}
+p.mix {border-width: 6px 8px 4px 10px;
+		border-style:  dashed dotted solid double;
+		border-color: red lawngreen blue yellow;}
+/* Four values */
+p.four {border-width: 6px 8px 4px 10px;
+		border-style: solid dotted double dashed;
+		border-color: red lawngreen blue yellow;}
+
+/* Three values */
+p.three {border-width:6px 8px 4px ;
+		border-style:  solid dotted double;
+		border-color:red lawngreen blue ;}
+
+/* Two values */
+p.two {border-width:6px 8px;
+		border-style: double solid;
+		border-color:red lawngreen ;}
+
+/* One value */
+p.one {border-width:6px ;
+		border-style: solid;
+		border-color: cyan;}
+
+		p {border: 9px double blue;}
+	/*border-bottom, border-left, border-right, border-top can also be used to format the borders*/
+	
+p.normal {border: 2px solid lime;
+		padding: 5px;}
+
+p.round1 {border: 2px solid gold;
+		border-radius: 5px;
+		padding: 5px;}
+
+p.round2 {border: 2px solid blue;
+		border-radius: 8px;
+		padding: 5px;}
+
+p.round3 {border: 2px solid red;
+		border-radius: 12px;
+		padding: 5px;}
+
+
+h1 {color: blue;
+	text-align:center;
+	font-size: 50px;
+	font-family: courier;
+	background-color: powderblue;
+	border:2px groove lime;}

@@ -1,0 +1,21 @@
+
+What is VPN?
+	Virtual Private Network
+	A VPN extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network.
+	>Benefits of VPN
+		1)Functionlity
+		2)Security
+		3)Management
+		4)Provides access to resources by remote workers 
+	>Some if the popular VPNs are:
+		1)Cisco
+		2)Citrix
+		3)FortiClient
+		4)Global Protect
+
+What is RDC?
+	Remote Desktop Connection.
+	>It is a Windows OS application.
+	>By using this we can access another: 
+		1)Server in our Company's VPN
+		2)Server of Client VPN

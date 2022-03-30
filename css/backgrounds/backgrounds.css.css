@@ -1,0 +1,26 @@
+body {
+		background-image: url("trading_view.png");
+		background-position: center;
+		background-repeat:no-repeat;
+		background-attachment: fixed;}
+h1 {color: blue;
+	text-align:center;
+	font-size: 50px;
+	font-family: courier;
+	background-color: powderblue;
+	border:2px groove lime;}
+
+h2 {color: lime;
+	text-align: center;
+	background-color:coral;
+	border: 3px solid cyan;}
+
+div {background-color:dimgrey;
+	text-align:left;
+	border: 2px solid magenta;}
+
+	p {color: gold;
+		text-align: center;
+		font-family: arial;
+		background-color: black;}
+		

@@ -1,0 +1,13 @@
+What is a class?
+It is a blueprint of an object
+Class is a logical entity
+Object is a physical entity
+Class is a combination of properties and methods
+	properties 	state
+	methods		behaviour
+Example
+	Class			Object
+	Blueprint		Home
+	Prescription	Medicines
+	
+	

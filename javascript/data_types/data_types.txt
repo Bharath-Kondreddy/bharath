@@ -1,0 +1,29 @@
+JAVASCRIPT DATA TYPES
+
+JavaScript variables can hold numbers like 100 and text values(STRINGS) like "Bharath Reddy".
+>>Strings are written inside double or single quotes.
+>>Numbers are written without quotes.
+>>Numbers can be written with, or without decimals
+
+JavaScript has dynamic types. 
+This means that the same variable can be used to hold different data types
+-------------
+JS BOOLEANS
+
+>>Booleans can only have two values: true or false.
+>>Booleans are often used in conditional testing.
+------------------------------
+
+THE "typeof" OPERATOR
+You can use the JavaScript typeof operator to find the type of a JavaScript variable.
+
+The typeof operator returns the type of a variable or an expression.
+--------------------------
+UNDEFINED
+In JavaScript, a variable without a value, has the value undefined. The type is also undefined.
+Any variable can be emptied, by setting the value to undefined. The type will also be undefined.
+----------------------
+EMPTY VALUES
+An empty value has nothing to do with undefined.
+
+An empty string has both a legal value and a type.

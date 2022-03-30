@@ -1,0 +1,16 @@
+body{background-color:black;}
+h2{
+	text-align:center;
+	font-size:40px;
+	color:blue;
+	background-color:pink;
+	font-family:courier;
+	}
+div {
+	margin:45px;
+	border:9px;
+	padding:15px;
+	background-color:teal;
+	color:yellow;
+	font-size:150%;
+	}

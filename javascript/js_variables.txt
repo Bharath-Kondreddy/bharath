@@ -1,0 +1,22 @@
+
+JAVA SCRPIT VARIABLES
+---------------------
+In a programming language variables are used to store data values.
+An equal sign is used to assign values to variables.
+---------------
+4 Ways to Declare a JavaScript Variable:
+>>Using var
+>>Using let
+>>Using const
+>>Using nothing
+
+In this example, 
+x is defined as a variable. 
+Then, x is assigned (given) the value 6:
+
+let x;
+x=5;
+
+
+
+NOTE: Variables are containers for storing data (storing data values)
