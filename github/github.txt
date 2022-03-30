@@ -6,7 +6,7 @@ Git provides the feature of branching in which the updated code can be done, and
 
 GIT COMMANDS
 ------------
-
+1)How to create repo?
 Git Init
 ========
 >The git init command is the first command that you will run on Git.
@@ -17,6 +17,7 @@ Git Init
 Syntax:
 $ git init 
 
+2)How to commit?
 Git Commit
 ==========
 >It is used to record the changes in the repository. 
@@ -44,9 +45,7 @@ $ git clone <repository URL>
 
 Usually, the original repository is located on a remote server.
 
-How to create repo?
 
-How to commit?
 
 What is Push?
 
