@@ -1,12 +1,19 @@
 What is Version Control system?
-VCS is also known as revision control, source control, or source code management.
-Just like an app has different updates due to bugs and additional feature addition, version changes, git also supports this feature. Many developers can add their code in parallel. So the version control system easily manages all the updates that are done previously.
-Git provides the feature of branching in which the updated code can be done, and then it can be merged with the main branch to make it available to the users. It not only makes everything organized but keeps synchronization among the developers to avoid any mishap. Other examples of version control systems are Helix core, Microsoft TFS, etc.
+-------------------------------
+
+>VCS is also known as revision control, source control, or source code management.
+>Just like an app has different updates due to bugs and additional feature addition, version changes, git also supports this feature. >Many developers can add their code in parallel.
+>So the version control system easily manages all the updates that are done previously.
+>Git provides the feature of branching in which the updated code can be done, and then it can be merged with the main branch to make it available to the users. 
+>It not only makes everything organized but keeps synchronization among the developers to avoid any mishap. 
+
+What are the Version Control Systems you know?
+Other examples of version control systems are Helix core, Microsoft TFS, Bitbucket, Gerrit etc.
 
 
 GIT COMMANDS
 ------------
-1)How to create repo?
+1)How to "create" repository?
 Git Init
 ========
 >The git init command is the first command that you will run on Git.
@@ -17,7 +24,7 @@ Git Init
 Syntax:
 $ git init 
 
-2)How to commit?
+2)How to "commit" repository?
 Git Commit
 ==========
 >It is used to record the changes in the repository. 
@@ -29,7 +36,7 @@ Git Commit
 Syntax:
 $ git commit  
 
-How to "Clone" repo?
+How to "clone" repository?
 
 Git Clone
 ==========
@@ -44,8 +51,6 @@ Syntax:
 $ git clone <repository URL>
 
 Usually, the original repository is located on a remote server.
-
-
 
 What is Push?
 
